@@ -6,7 +6,7 @@
 
 ## Installation
 
-```
+```bash
 pip install colorblast
 ````
 
@@ -20,7 +20,7 @@ ColorBlast provides a wide variety of console effects:
 
 Print colored and styled text with optional typing effect and emoji:
 
-```
+```python
 from colorblast import ColorBlast
 
 ColorBlast.print("Hello World!", color="cyan", style="bold", typing_speed=0.05, emoji="star")
